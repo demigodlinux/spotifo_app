@@ -13,7 +13,7 @@ export default function NavBar(){
         <div className="navbar-brand" onClick={handleLogoClick}>
           <span className="logo">
             <img 
-              src="/logo2.png" 
+              src={`${import.meta.env.BASE_URL}logo2.png`}
               alt="Spotifo Logo" 
             />
           </span>
